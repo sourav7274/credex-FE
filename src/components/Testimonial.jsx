@@ -20,7 +20,7 @@ function Testimonials() {
         {reviews.map((review, idx) => (
           <div
             key={idx}
-            className="dark:bg-[#778da9] dark:text-[#0d1b2a] bg-[#0d1b2a] text-[#778da9]  p-4 rounded shadow"
+            className="dark:bg-[#1b263b] dark:text-[#e0e1dd] bg-[#0d1b2a] text-[#e0e1dd]  p-4 rounded shadow"
           >
             <p className="italic">"{review.text}"</p>
             <p className="mt-2 font-semibold">

@@ -6,13 +6,13 @@ function WhyChooseUs() {
     { title: "Dedicated Support", desc: "Get real help from real people." },
   ];
   return (
-    <section className="bg-[#778da9] text-[#0d1b2a] dark:bg-[#0d1b2a] dark:text-[#778da9] px-10">
+    <section className=" px-10">
       <h2 className="text-2xl font-bold mb-6 text-center">Why Choose Us</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {reasons.map((reason, idx) => (
           <div
             key={idx}
-            className="dark:bg-[#778da9] dark:text-[#0d1b2a] bg-[#0d1b2a] text-[#778da9] p-4 rounded shadow"
+            className="dark:bg-[#1b263b] dark:text-[#e0e1dd] bg-[#0d1b2a] text-[#e0e1dd] p-4 rounded shadow"
           >
             <h3 className="font-semibold text-lg mb-2">{reason.title}</h3>
             <p>{reason.desc}</p>
